@@ -92,7 +92,8 @@ function submitfun() {
             var max_freq = Math.max(...elements.map(e => e.freq));
             var fontsSizes = [];
             for (i = 0; i < Object.keys(elements).length; i++) {
-                fontsSizes[i] = elements[i].freq * 120 / max_freq;
+                fontsSizes[i] = elements[i].freq * 8 / max_freq;
+                console.log("FS ====> ",fontsSizes[i]);                
             }
             var order = "";
             document.querySelector(".container").innerHTML = "";
@@ -107,7 +108,7 @@ function submitfun() {
                     `<p 
                 id="i${i}freq${elements[i].freq}"
                 class="word"
-                style="font-size:${fontsSizes[i]}px;
+                style="font-size:${fontsSizes[i]}vw;
                 color : ${colors[Math.floor(Math.random() * colors.length)]};
                 ">
                 ${elements[i].word} </p>`

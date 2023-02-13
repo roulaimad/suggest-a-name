@@ -12,7 +12,8 @@
 .container {
     margin: auto;
     width: 30%;
-    padding: 90px;
+    height: 70%;
+    padding: 50px;
     text-align: center;
     background-color: rgb(255, 217, 167);
     border: 5px solid maroon;
@@ -27,7 +28,7 @@
     border: 2px solid maroon;
 }
 #SugName{
-    width: 200px;
+    width: 20vw;
     height: auto;
 }
 #sugtitle{

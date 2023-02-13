@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" ,type="text/css" href="suggestName.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Cloud</title>
+</head>
+
+<body>
+    <br>
+    <div class="theform">
+        <form name="myForm">
+            <label for="fname" id="sugtitle"> <b> Suggest a Name</b> :</label>
+            <br> <br>
+            <input type="text" name="sugName" oninput="validationName()" id="SugName">
+            <br>
+            <p id="nameValidation"></p>
+            <input id=button type="button" value="Submit" onclick=submitfun(),validateForm()>
+        </form>
+    </div>
+    <br>
+    <div id="suggestNameCloud"></div>
+    <div class="bigcontainer">
+        <div class="container">
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="suggestName.js"></script>

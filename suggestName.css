@@ -1,0 +1,55 @@
+.word {
+    margin: 0%;
+    padding: 0%;
+    border: 0cm;
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 530;
+    line-height: 90%;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 30%;
+    padding: 90px;
+    text-align: center;
+    background-color: rgb(255, 217, 167);
+    border: 5px solid maroon;
+}
+
+.theform {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 227, 191);
+    border: 2px solid maroon;
+}
+#SugName{
+    width: 200px;
+    height: auto;
+}
+#sugtitle{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#button{
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(136, 96, 96);
+    border-bottom: 5px solid rgb(95, 66, 66);
+    font-size: 20px;
+}
+.container p {
+    color: aqua;
+    padding: 0%;
+    margin: 0%;
+    word-spacing: -5px;
+}
+
+
+html {
+    background-color: rgb(199, 199, 199);
+}

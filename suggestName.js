@@ -72,6 +72,7 @@ function submitfun() {
                                 })
                         }
                     }
+                    
                 } else {
                     fetch(url,
                         {

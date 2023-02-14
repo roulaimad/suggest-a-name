@@ -67,7 +67,7 @@ function submitfun() {
                                     },
                                     body: `{
                                         "word": "${elements[i].word}",
-                                        "freq": ${elements[i].freq + 99}
+                                        "freq": ${elements[i].freq + 1}
                                     }`
                                 })
                         }
@@ -80,7 +80,7 @@ function submitfun() {
                                 "Authorization": `Basic ${credentials}`,
                                 'Content-Type': 'application/json'
                             },
-                            body: `{ "word": "${input}","freq": 99999}`
+                            body: `{ "word": "${input}","freq": 1}`
                         })
                 }
             }
